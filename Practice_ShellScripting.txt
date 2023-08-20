@@ -1,4 +1,5 @@
 #!/bin/bash
+#Practice script
 HOST="google.com"
 ping -c 1 $HOST
 if [ "$?" -ne "0" ]
